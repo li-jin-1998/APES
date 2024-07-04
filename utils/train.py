@@ -7,7 +7,7 @@ import os
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('config', help='train config file path')
+    parser.add_argument('--config', help='train config file path',default='../configs/apes/apes_cls_local-modelnet-200epochs.py')
     parser.add_argument('--launcher', choices=['none', 'pytorch', 'slurm', 'mpi'], default='none', help='job launcher')
     args = parser.parse_args()
     return args

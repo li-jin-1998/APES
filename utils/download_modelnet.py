@@ -1,4 +1,8 @@
-import os, glob, h5py, pkbar
+import glob
+import h5py
+import os
+import pkbar
+
 import numpy as np
 
 
